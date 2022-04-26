@@ -249,6 +249,7 @@ header .wrap .right ul li a{
     width: calc(50% + 10px); height: 100%;
     background-color: #323232;
     padding: 20px;
+    position: relative;
 }
 #products .wrap .items .cont .box.wide .txt_part h4{
     font-size: 14px;
@@ -269,11 +270,15 @@ header .wrap .right ul li a{
     padding-bottom: 20px;
 }
 #products .wrap .items .cont .box.wide .txt_part a{
+    position: absolute;
+    left: 20px;
+    display: block;
     font-size: 14px;
     color: #795548;
     font-weight: 700;
     padding-bottom: 20px;
     transition: color 0.5s;
+    text-align: left;
 }
 #products .wrap .items .cont .box.wide .txt_part a:hover{
     color: #9e7262;
